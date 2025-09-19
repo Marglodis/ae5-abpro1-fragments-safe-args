@@ -1,0 +1,52 @@
+# Archivos de compilación
+/build
+/app/build
+**/build/
+**/bin/
+**/gen/
+
+# Archivos de Gradle
+.gradle/
+.gradle/**
+/gradle/
+!gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# Archivos de configuración de Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Configuración específica de usuario
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.log
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de cache
+.cxx/
+local.properties
+captures/
+.externalNativeBuild/
+
+# Archivos de testing
+outputs/
+reports/
+
+# Archivos de firma
+*.jks
+*.keystore
+*.pem
+*.key
+*.crt
+
+# Archivos de entorno
+.env

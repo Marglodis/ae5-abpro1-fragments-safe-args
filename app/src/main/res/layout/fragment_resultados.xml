@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".ResultadosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textReceived"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/medium_size_text"
+        android:layout_marginBottom="@dimen/margin_small"
+        />
+
+    <TextView
+        android:id="@+id/textViewReceived"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/medium_size_text"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/buttonVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:textSize="@dimen/medium_size_text"
+        android:layout_marginTop="@dimen/margin_xl"
+        />
+</LinearLayout>
